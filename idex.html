@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To do list</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="head">
+    <h1 id="MainHeader" class="MainHeader">Dashboard</h1>
+    <button id="btn_modal" type="button" class="btn-addTask">Создать</button>
+  </div>
+
+  <div id="task_list" class="task_list">
+
+  </div>
+
+
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <button id="canel" class="btn-canel" type="button">x</button>
+
+      <input type="text" id="name" placeholder="Имя" class="input-name">
+
+      <input type="number" id="age" placeholder="Возраст" class="input-age">
+
+      <textarea id="description" placeholder="Что ты должен сегодня сделать?" class="textarea-description"></textarea>
+      <button id="submit" class="btn-submit" type="button">Создать</button>
+
+    </div>
+  </div>
+
+
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
